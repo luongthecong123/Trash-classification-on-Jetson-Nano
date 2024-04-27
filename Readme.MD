@@ -1,6 +1,3 @@
-Abstract: Abstract— In many developing countries, manual trash classification at source has always been a
-tedious and laborious task. And after Covid-19 pandemic, the already large global consumption of
-containers and packaging used in takeaway foods
 This code was uploaded to Jetson Nano 2 (2 CSI ports for camera).
 The experiments were performed on a laptop with Intel Core i5-11th CPU with 16 GB RAM, RTX 3050Ti 4GB Laptop GPU.
 IMPORTANT: Due to the version of Jetpack on Jetson Nano. The model must be trained with Tensorflow 2.4.0 and CUDA 11.1, Cudnn 8.0 (Consider create a virtual environment with Python venv).
