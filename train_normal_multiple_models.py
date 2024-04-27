@@ -18,12 +18,6 @@ img_width = 224
 train_ds_path = "E:/data/Drinking_4class/Train/"
 val_ds_path = "E:/data/Drinking_4class/Val/"
 
-# train_ds_path = "E:/data/UEH_vending/UEH_vending_train/"
-# val_ds_path = "E:/data/UEH_vending/UEH_vending_val/"
-
-train_ds_path = "E:/data/kaggle_trashbox/"
-val_ds_path = "E:/data/Recycling/Recycling_test/"
-
 train_ds = tf.keras.utils.image_dataset_from_directory(
   train_ds_path,
   image_size=(img_height, img_width),
@@ -120,13 +114,13 @@ def Train_save(model, epochs, name):
 epochs = 30
 
 model_Inc_flip_vert = Create_model(InceptionV3, aug_Flip_vert)
-model_Inc_flip_hor = Create_model(InceptionV3, aug_Flip_hor)
-model_Inc_Crop = Create_model(InceptionV3, aug_Crop)
-model_Inc_Rot = Create_model(InceptionV3, aug_Rot)
-model_Inc_Contrast = Create_model(InceptionV3, aug_Contrast)
+#model_Inc_flip_hor = Create_model(InceptionV3, aug_Flip_hor)
+#model_Inc_Crop = Create_model(InceptionV3, aug_Crop)
+#model_Inc_Rot = Create_model(InceptionV3, aug_Rot)
+#model_Inc_Contrast = Create_model(InceptionV3, aug_Contrast)
 
 Train_save(model_Inc_flip_vert, epochs, "model_Inc_flip_vert")
-Train_save(model_Inc_flip_hor, epochs, "model_Inc_flip_hor")
-Train_save(model_Inc_Crop, epochs, "model_Inc_Crop")
-Train_save(model_Inc_Rot, epochs, "model_Inc_Rot")
-Train_save(model_Inc_Contrast, epochs, "model_Inc_Contrast")
+#Train_save(model_Inc_flip_hor, epochs, "model_Inc_flip_hor")
+#Train_save(model_Inc_Crop, epochs, "model_Inc_Crop")
+#Train_save(model_Inc_Rot, epochs, "model_Inc_Rot")
+#Train_save(model_Inc_Contrast, epochs, "model_Inc_Contrast")
