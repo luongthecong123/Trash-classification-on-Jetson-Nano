@@ -10,12 +10,14 @@ Steps:
    Using CSI camera will require more installation (This repo used CSI camera - Pi V2 camera).
 5. Upload the model to Jetson Nano and run the camera classification code.
 6. Code to control the moving belt  will be updated later.
+
 Video demonstration:
 https://www.youtube.com/shorts/dkxyju6WXfg
 
 Data:
 https://www.kaggle.com/datasets/mrgetshjtdone/vn-trash-classification/data
 Acknowledgement: This research is funded by Ho Chi Minh City University of Technology – VNU-HCM under grant number SVPFIEV-2022-ĐĐT-11. We acknowledge Ho Chi Minh City University of Technology (HCMUT), VNU-HCM for supporting this study.
+
 **Cite this work**
 ```
 @INPROCEEDINGS{luong_VNTrashClass,
