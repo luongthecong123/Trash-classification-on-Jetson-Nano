@@ -12,3 +12,6 @@ Steps:
 6. Code to control the moving belt  will be updated later.
 Video demonstration:
 https://www.youtube.com/shorts/dkxyju6WXfg
+
+Data:
+https://www.kaggle.com/datasets/mrgetshjtdone/vn-trash-classification/data
