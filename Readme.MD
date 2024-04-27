@@ -1,3 +1,6 @@
+Abstract: Abstract— In many developing countries, manual trash classification at source has always been a
+tedious and laborious task. And after Covid-19 pandemic, the already large global consumption of
+containers and packaging used in takeaway foods
 This code was uploaded to Jetson Nano 2 (2 CSI ports for camera).
 The experiments were performed on a laptop with Intel Core i5-11th CPU with 16 GB RAM, RTX 3050Ti 4GB Laptop GPU.
 IMPORTANT: Due to the version of Jetpack on Jetson Nano. The model must be trained with Tensorflow 2.4.0 and CUDA 11.1, Cudnn 8.0 (Consider create a virtual environment with Python venv).
@@ -15,3 +18,12 @@ https://www.youtube.com/shorts/dkxyju6WXfg
 
 Data:
 https://www.kaggle.com/datasets/mrgetshjtdone/vn-trash-classification/data
+Acknowledgement: This research is funded by Ho Chi Minh City University of Technology – VNU-HCM under grant number SVPFIEV-2022-ĐĐT-11. We acknowledge Ho Chi Minh City University of Technology (HCMUT), VNU-HCM for supporting this study.
+**Cite this work**
+```
+@INPROCEEDINGS{luong_VNTrashClass,
+  author={Luong, Cong and Nguyen, Hieu and Duong, Hoang and Nguyen, Xinh},
+  booktitle={The Bach Khoa Youths Science and Technology Conference},
+  title={Drinking Waste Classification Using Deep Transfer Learning for Embedded System},
+  year={2023}
+}
